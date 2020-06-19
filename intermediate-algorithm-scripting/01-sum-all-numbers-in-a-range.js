@@ -14,6 +14,13 @@ function sumAll(arr) {
   }
 
   return sum
+
+  // Alternative solution using math.min and max
+  // var sum = 0;
+  // for (var i = Math.min(...arr); i <= Math.max(...arr); i++) {
+  //   sum += i;
+  // }
+  // return sum;
 }
 
 console.log(sumAll([10, 5]))
